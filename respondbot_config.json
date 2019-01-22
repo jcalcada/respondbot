@@ -1,0 +1,30 @@
+{
+	"domains": [
+		{
+			"name": "YOUR_DOMAIN",
+			"token": "YOUR_V2_REST_API_KEY",
+			"services": {
+				"SOME_SERVICE_ID": {
+					"ack": {
+						"min": "22 minutes",
+						"max": "1 hour 5 minutes"
+					},
+					"resolve": {
+						"min": "1 hour 6 minutes",
+						"max": "2 hours"
+					}
+				},
+				"ANOTHER_SERVICE_ID": {
+					"ack": {
+						"min": "1 minutes",
+						"max": "2 minutes"
+					},
+					"resolve": {
+						"min": "3 minutes",
+						"max": "4 minutes"
+					}
+				}
+			}
+		}
+	]
+}
