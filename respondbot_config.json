@@ -1,8 +1,8 @@
 {
 	"domains": [
 		{
-			"name": "YOUR_DOMAIN",
-			"token": "YOUR_V2_REST_API_KEY",
+			"name": "pdt-jcalcada",
+			"token": "fbd30416713c4c6e89f97dff1a42da0b",
 			"services": {
 				"SOME_SERVICE_ID": {
 					"ack": {
